@@ -1,0 +1,37 @@
+.navbar {
+    width:100vw;
+  height: 80px;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(50, 50, 71, 0.1);
+}
+
+.navitem {
+  font-family: 'Khula', sans-serif;
+  padding: 25px 5px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.navitem_2 {
+  font-family: 'Khula', sans-serif;
+  padding: 25px 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2d9cdb;
+
+}
+
+.navitem:active {
+  border-bottom: 4px solid #2d9cdb;
+  color: #2d9cdb;
+}
+
+.navitem:focus {
+  border-bottom: 4px solid #2d9cdb;
+  color: #2d9cdb;
+}
+.navitem:hover{
+    border-bottom: 4px solid #2d9cdb
+}
