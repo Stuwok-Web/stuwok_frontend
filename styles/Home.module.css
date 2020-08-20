@@ -235,13 +235,13 @@
 
 @media (max-width: 768px) {
   .textSection {
-    width: 400px;
+    width: 350px;
   }
   .img {
     display: none;
   }
   .look {
-    width: 400px;
+    /* width: 400px; */
   }
   .cn{
     display: none;
@@ -252,5 +252,8 @@
   .getHiredText{
     width:400px;
     font-size: 36px;
+  }
+  .ptextSection{
+    width:300px
   }
 }

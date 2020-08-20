@@ -66,14 +66,18 @@
   color: #0084f4;
 }
 
+.heart_likie{
+  margin:auto
+}
+
 @media (max-width: 768px) {
   .card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
-    width: 450px;
-    height: 200px;
+    width: 350px;
+    height: 400px;
     background: #ffffff;
     box-sizing: border-box;
     box-shadow: 2px 8px 16px rgba(50, 50, 71, 0.08);
@@ -81,13 +85,22 @@
     justify-content: space-between;
     padding: 20px;
     cursor: pointer;
+    
   }
   .jobDetails {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:20px;
   }
   .jobPosition{
     /* font-size:18px */
+  }
+  .heart_like{
+    transform:scale(1.5)
+  }
+  .heart_likie{
+    margin:0px
   }
 }
