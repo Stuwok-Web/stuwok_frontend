@@ -1,21 +1,46 @@
-import React from 'react'
-import styles from '../styles/JobCard.module.css'
+import React, { useState } from 'react';
+import styles from '../styles/JobCard.module.css';
+import Heart from '../icons/Heart';
+import { jobs } from '../data/jobs';
 
 const JobCard = () => {
-    return (
-        <div className={styles.card}>
-            <div>
-                <img src="https://stuwork.netlify.app/assets/green-like.svg" alt="img"/>
-            </div>
-            <div className={styles.jobDetails}>
-                <span className={styles.jobCompany}>Andela</span>
-                <span className={styles.jobPosition}>UI/UX Designer</span>
-            </div>
-            <div style={{marginBottom:"auto"}}>
-                heart
-            </div>
-        </div>
-    )
-}
+  //   const [like, setLike] = useState(true);
 
-export default JobCard
+  //   setLike(!like);
+  //   let btn_class = like ? 'blackButton' : 'whiteButton';
+
+  return (
+    <>
+      <div className="row">
+        {jobs.map((job) => {
+          return (
+            <div className="col-md-6" style={{marginTop:"20px"}}>
+              <div className={styles.card}>
+                <div>
+                  <img
+                    src="https://stuwork.netlify.app/assets/green-like.svg"
+                    alt="img"
+                  />
+                </div>
+                <div className={styles.jobDetails}>
+                  <span className={styles.jobCompany}>{job.company}</span>
+                  <span className={styles.jobPosition}>{job.position}</span>
+                  <span className={styles.jobType}>{job.type}</span>
+                  <span className={styles.jobSalary}>NGN {job.salary}</span>
+                </div>
+                <div style={{ marginBottom: 'auto' }}>
+                  <Heart className={styles.heart_like} />
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+        <div className={styles.viewmore}>
+            <span>View more Recent Opening</span> 
+        </div>
+    </>
+  );
+};
+
+export default JobCard;
