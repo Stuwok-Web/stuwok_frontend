@@ -63,6 +63,10 @@
   margin-top:20px;
 }
 
+.grid_r{
+  margin:100px
+}
+
 @media (max-width: 768px) {
   .grid_container {
     display: grid;
@@ -75,4 +79,9 @@
   .forme{
     width: 300px;
   }
+
+  
+.grid_r{
+  margin:10px
+}
 }

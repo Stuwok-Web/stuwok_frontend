@@ -243,4 +243,14 @@
   .look {
     width: 400px;
   }
+  .cn{
+    display: none;
+  }
+  .line{
+    margin-bottom: 20px;
+  }
+  .getHiredText{
+    width:400px;
+    font-size: 36px;
+  }
 }

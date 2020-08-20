@@ -120,11 +120,13 @@ export default function Home() {
                 </div>
               </div>
               <div class="text-center col-sm-12">
+                <div className={styles.cn}>
                 <p>
                   <b className={styles.number}>1</b>{' '}
                   <span className={styles.dot}>.................</span> <b className={styles.number}>2</b>{' '}
                   <span className={styles.dot}>.................</span> <b className={styles.number}>3</b>
                 </p>
+                </div>
               </div>
               <div className={styles.step}>
                 <div class="row flex-wrap">

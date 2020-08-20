@@ -21,7 +21,10 @@ const Footer = () => {
   );
   return (
     <section className={styles.footer}>
-      <div className="container" style={{ margin: '100px' }}>
+      <div className="container">
+        <div className={styles.grid_r}>
+
+    
         <div className={styles.grid_container}>
           <div className={styles.grid_one}>
             <div className="mb-4">
@@ -116,6 +119,7 @@ const Footer = () => {
             {Forme}
             </div>
           </div>
+        </div>
         </div>
         {/* <hr style={{background:"#666666"}}/> */}
         <span>StuWork. All Rights Reserved</span>

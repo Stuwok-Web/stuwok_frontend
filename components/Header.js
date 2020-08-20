@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import styles from '../styles/Header.module.css';
+import Mobile from './Mobile';
 
 const Header = () => {
+  const [show, setShow] = useState(false)
+
+  const handleShow = event => {
+    setShow(!show)
+  }
   const menu = (
     <svg viewBox="0 0 100 80" width="30" height="30">
       <rect width="100" height="10"></rect>
@@ -12,6 +18,7 @@ const Header = () => {
   );
 
   return (
+    <>
     <Navbar className={styles.navbar}>
       <Navbar.Brand
         // style={{
@@ -27,7 +34,7 @@ const Header = () => {
         />
       </Navbar.Brand>
       <Nav className="mx-auto">
-        <div className={styles.nav_btn}>{menu}</div>
+        <div className={styles.nav_btn} onClick={handleShow}>{menu}</div>
         <div className={styles.nav_links}>
           <Nav.Link href="" className={styles.navitem}>
             Home
@@ -63,6 +70,8 @@ const Header = () => {
         </Nav>
       </div>
     </Navbar>
+    {show && <Mobile show={show} />}
+    </>
   );
 };
 
