@@ -4,7 +4,7 @@ import styles from '../styles/Header.module.css';
 import Mobile from './Mobile';
 
 const Header = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   const handleShow = (event) => {
     setShow(!show);
@@ -72,7 +72,7 @@ const Header = () => {
           </Nav>
         </div>
       </Navbar>
-      {/* {show && <Mobile show={show} />} */}
+      {show && <Mobile show={show} />}
     </>
   );
 };

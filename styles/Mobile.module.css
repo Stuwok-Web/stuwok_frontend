@@ -1,14 +1,16 @@
 .mobile_nav{
-    background-color: #fff;
+    /* background-color: black; */
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
+    /* left: 100; */
+    right: 100;
     padding: 0;
     float: none;
     margin: 0;
     text-align: center;
+    z-index: 1;
+
 }
 
 .ulnav{
