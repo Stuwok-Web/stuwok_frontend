@@ -67,9 +67,8 @@
 }
 
 .heart_likie{
-  margin:auto
+  margin-bottom:auto;
 }
-
 @media (max-width: 768px) {
   .card {
     display: flex;
@@ -101,6 +100,6 @@
     transform:scale(1.5)
   }
   .heart_likie{
-    margin:0px
+    /* margin:0px */
   }
 }

@@ -11,7 +11,7 @@ const JobCard = () => {
 
   return (
     <>
-      <div className="row-wrap">
+      <div className="row">
         {jobs.map((job) => {
           return (
             <div className="col-md-6" style={{marginTop:"20px"}}>
@@ -28,7 +28,7 @@ const JobCard = () => {
                   <span className={styles.jobType}>{job.type}</span>
                   <span className={styles.jobSalary}>NGN {job.salary}</span>
                 </div>
-                <div style={{ marginBottom: 'auto' }} className={styles.heart_likie}>
+                <div className={styles.heart_likie}>
                   <Heart className={styles.heart_like} />
                 </div>
               </div>
