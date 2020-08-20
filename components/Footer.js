@@ -5,12 +5,12 @@ import styles from '../styles/Footer.module.css';
 const Footer = () => {
   const Forme = (
     <>
-      <Form className="mt-3">
+      <Form className={styles.forme}>
       <Form.Group>
           <Form.Control type="text" placeholder=" Name" />
         </Form.Group>
         <Form.Group>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Control type="email" placeholder="Email" />
         </Form.Group>
         <div className="d-flex justify-content-end">
 
@@ -117,7 +117,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr style={{background:"#666666"}}/>
+        {/* <hr style={{background:"#666666"}}/> */}
         <span>StuWork. All Rights Reserved</span>
       </div>
     </section>

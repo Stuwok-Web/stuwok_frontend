@@ -36,6 +36,8 @@ export default function Home() {
                   Get Started
                 </Button>
               </div>
+              <div className={styles.img}>
+
               <div className="col-md-4" style={{ height: '400px' }}>
                 <div
                   className="col-md-2"
@@ -59,6 +61,7 @@ export default function Home() {
                     alt=""
                   />
                 </div>
+              </div>
               </div>
             </div>
           </div>
@@ -124,7 +127,7 @@ export default function Home() {
                 </p>
               </div>
               <div className={styles.step}>
-                <div class="row">
+                <div class="row flex-wrap">
                   {/* <!-- first section --> */}
                   <div class="col-md-4 text-center">
                     <h5>Complete your profile</h5>

@@ -5,7 +5,7 @@ const SearchJob = () => {
   return (
     <form>
       <div className="form-row">
-        <div className="col-4">
+        <div className="d-flex col-4">
           <div class="input-group mb-2 mr-sm-2">
             <div class="input-group-prepend">
               <div class="input-group-text" style={{ background: 'white' }}>

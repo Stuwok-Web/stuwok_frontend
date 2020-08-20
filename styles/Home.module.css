@@ -156,9 +156,7 @@
 
 .seventhSection {
   background-color: #f8f8f8;
-  height: 700px;
   width: 100%;
-  /* margin-bottom:30px; */
 }
 
 .believe {
@@ -223,14 +221,26 @@
   font-size: 18px;
   line-height: 21px;
   color: #666666;
-  width: 250px
+  width: 250px;
 }
 
-.vacancy{
+.vacancy {
   font-weight: bold;
-font-size: 16px;
-line-height: 22px;
-color: #0084F4;
-border-bottom: 2px solid #0084F4;
-cursor:pointer;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0084f4;
+  border-bottom: 2px solid #0084f4;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .textSection {
+    width: 400px;
+  }
+  .img {
+    display: none;
+  }
+  .look {
+    width: 400px;
+  }
 }

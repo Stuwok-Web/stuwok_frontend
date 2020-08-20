@@ -30,7 +30,6 @@
 }
 
 .jobDetails {
-    
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
@@ -40,30 +39,55 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .jobSalary {
-  
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
 }
 
-.heart_like{
-    color: red;
+.heart_like {
+  color: red;
 }
 
-.viewmore{
+.viewmore {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.viewmore span {
+  font-size: 18px;
+  line-height: 21px;
+  color: #0084f4;
+}
+
+@media (max-width: 768px) {
+  .card {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    margin-top:20px;
-    cursor: pointer
-}
-
-.viewmore span{
-    font-size: 18px;
-line-height: 21px;
-color: #0084F4;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 450px;
+    height: 200px;
+    background: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 2px 8px 16px rgba(50, 50, 71, 0.08);
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+  }
+  .jobDetails {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .jobPosition{
+    /* font-size:18px */
+  }
 }
