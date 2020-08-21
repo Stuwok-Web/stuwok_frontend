@@ -1,18 +1,25 @@
 .mainlayoutMain {
-	margin: 0 auto;
-	display: flex;
-    flex-direction: column;
-	width: auto;
-	height: 100vh;
-	padding: 0px;
-	margin: 0px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
 }
 
 .content {
-	display: flex;
-    flex-direction: column;
-	width:auto;
-	/* flex-grow:1; */
-	margin: 0 auto;
-   
+  display: flex;
+  flex-direction: column;
+  /* width:auto; */
+  /* flex-grow:1; */
+  /* margin: 0 auto; */
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: auto;
+    /* flex-grow:1; */
+    margin: 0 auto;
+  }
 }
