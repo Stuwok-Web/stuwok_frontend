@@ -4,7 +4,7 @@ import styles from '../styles/Header.module.css';
 import Mobile from './Mobile';
 
 const Header = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   const handleShow = (event) => {
     setShow(!show);

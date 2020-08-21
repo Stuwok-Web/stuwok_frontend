@@ -14,7 +14,7 @@ const JobCard = () => {
       <div className="row">
         {jobs.map((job, index) => {
           return (
-            <div className="col-md-6" style={{marginTop:"20px"}}>
+            <div className="col-md-6" key={index} style={{marginTop:"20px"}}>
               <div className={styles.card}>
                 <div>
                   <img

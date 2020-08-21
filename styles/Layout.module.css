@@ -1,16 +1,18 @@
 .mainlayoutMain {
-	width: 100%;
+	margin: 0 auto;
+	display: flex;
+    flex-direction: column;
+	width: auto;
 	height: 100vh;
 	padding: 0px;
 	margin: 0px;
-	display: flex;
-    flex-direction: column;
 }
 
 .content {
 	display: flex;
     flex-direction: column;
-	width:100%;
+	width:auto;
+	/* flex-grow:1; */
 	margin: 0 auto;
    
 }
