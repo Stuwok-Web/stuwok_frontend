@@ -6,11 +6,11 @@
   background-position: right;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
+
   /* opacity: 0.5 */
 }
 
 .textSection {
-  font-family: 'Khula', sans-serif;
   font-size: 40px;
   width: 742px;
   font-weight: 500;
@@ -60,6 +60,8 @@
   /* height:920px; */
   width: 100%;
   margin-bottom: 20px;
+  font-family: Gilroy;
+
 }
 
 .faj {
