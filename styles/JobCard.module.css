@@ -1,0 +1,105 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 550px;
+  height: 200px;
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 2px 8px 16px rgba(50, 50, 71, 0.08);
+  border-radius: 8px;
+  justify-content: space-between;
+  padding: 20px;
+  cursor: pointer;
+}
+.card:hover {
+  border: 1px solid #0084f4;
+}
+
+.jobDetails {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+
+.jobCompany {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.jobDetails {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.jobType {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+
+.jobSalary {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.heart_like {
+  color: red;
+}
+
+.viewmore {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.viewmore span {
+  font-size: 18px;
+  line-height: 21px;
+  color: #0084f4;
+}
+
+.heart_likie{
+  margin-bottom:auto;
+}
+@media (max-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 350px;
+    height: 400px;
+    background: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 2px 8px 16px rgba(50, 50, 71, 0.08);
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+    
+  }
+  .jobDetails {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:20px;
+  }
+  .jobPosition{
+    /* font-size:18px */
+  }
+  .heart_like{
+    transform:scale(1.5)
+  }
+  .heart_likie{
+    /* margin:0px */
+  }
+}

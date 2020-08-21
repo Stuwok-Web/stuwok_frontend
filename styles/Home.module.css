@@ -1,123 +1,262 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.topsection {
+  height: 550px;
+  width: 100%;
+  background-color: #f8f8f8;
+  background-image: url('https://res.cloudinary.com/davak/image/upload/v1597772767/StuWork2_z8r16i.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  /* opacity: 0.5 */
+}
+
+.textSection {
+  font-family: 'Khula', sans-serif;
+  font-size: 40px;
+  width: 742px;
+  font-weight: 500;
+  color: #151522;
+}
+
+.span {
+  font-weight: 600;
+}
+
+.ptextSection {
+  width: 400px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.getstarted {
+  margin-top: 20px;
+  width: 250px;
+}
+
+.bg_img {
+  left: 272px;
+  bottom: 120px;
+  transform: scale(0.7);
 }
 
 .main {
-  padding: 5rem 0;
-  flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
-.footer {
+.company_names {
+  height: 148px;
+  background: #e4e4e4;
+  padding: 30px;
+}
+
+.company_names .logo img {
+  padding: 20px;
+}
+
+.thirdSection {
+  /* height:920px; */
   width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 20px;
 }
 
-.footer img {
-  margin-left: 0.5rem;
+.faj {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 38px;
+  color: #0084f4;
+  margin-bottom: 20px;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.ro {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  color: #0084f4;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.fourthSection {
+  background-color: #f8f8f8;
+  /* height:700px; */
+  width: 100%;
+  /* margin-bottom:30px; */
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.getHiredText {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #151522;
+  /* border-bottom: 2px solid red; */
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.line {
+  height: 5px;
+  width: 90px;
+  background: #ff647c;
+}
+.line2 {
+  width: 6.5rem;
+  height: 5px;
+  background: #ff647c;
+  margin: auto;
+  margin-bottom: 3rem;
 }
 
-.title,
-.description {
+.dot {
+  color: #56ccf2;
+  font-weight: 500;
+  font-size: 80px;
+  word-spacing: 10em;
+  border-radius: 50%;
+}
+
+.number {
+  font-size: 1.5rem;
+  background-color: #2f80ed;
+  border-radius: 100% !important;
+  color: white;
+  padding: 15px;
+  width: 750px !important;
+  height: 750px !important;
+}
+
+.fifthSection {
+  background-color: #ffffff;
+  /* height:700px; */
+  width: 100%;
+  /* margin-bottom:30px; */
+}
+
+.viewp {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: white;
+}
+
+.sixthSection {
+  background-color: #4eaeff;
+  width: 100%;
+  height: 416px;
+}
+
+.look {
+  width: 800px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.seventhSection {
+  background-color: #f8f8f8;
+  width: 100%;
+}
+
+.believe {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 42px;
+  width: 1170px;
   text-align: center;
 }
 
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+.sty {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.styp {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 30px;
+  color: #666666;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  max-width: 800px;
-  margin-top: 3rem;
+.eightSection {
+  background-color: #ffffff;
+  /* height: 360px; */
+  width: 100%;
 }
 
-.card {
-  margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+.aylf {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #333333;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.aylfb {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 143px;
+  height: 51px;
+  background-color: #56ccf2;
+}
+.aylfb2 {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 173px;
+  height: 51px;
+  background-color: #56ccf2;
 }
 
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.cvbutton {
+  width: 350px;
+  height: 51px;
+  margin-bottom: 20px;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.cvtext {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #666666;
+  width: 250px;
 }
 
-.logo {
-  height: 1em;
+.vacancy {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0084f4;
+  border-bottom: 2px solid #0084f4;
+  cursor: pointer;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+@media (max-width: 768px) {
+  .textSection {
+    width: 450px;
+  }
+  .getstarted{
+    margin-bottom: 50px;
+  }
+  .img {
+    display: none;
+  }
+  .look {
+    width: 400px;
+  }
+  .cn{
+    display: none;
+  }
+  .line{
+    margin-bottom: 20px;
+  }
+  .getHiredText{
+    width:400px;
+    font-size: 36px;
+  }
+  .ptextSection{
+    width:300px
   }
 }
