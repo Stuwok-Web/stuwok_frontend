@@ -41,7 +41,7 @@ const Footer = () => {
             </span>
           </div>
           <div>
-            <div className="mb-5 mt-3">
+            <div className="mb-4 mt-3">
               <h2 className={styles.explore}>Explore</h2>
             </div>
             <div>
@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
           <div>
             <div>
-              <div className="mb-5 mt-3">
+              <div className="mb-4 mt-3">
                 <h2 className={styles.explore}>Services</h2>
               </div>
               <div>
@@ -88,7 +88,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <div className="mb-5 mt-3">
+            <div className="mb-4 mt-3">
               <h2 className={styles.explore}>Follow</h2>
             </div>
             <img
@@ -108,7 +108,7 @@ const Footer = () => {
             />
           </div>
           <div>
-            <div className="mb-5 mt-3">
+            <div className="mb-4 mt-3">
               <h2 className={styles.explore}>Connect</h2>
             </div>
             <div >
@@ -121,7 +121,7 @@ const Footer = () => {
           </div>
         </div>
         </div>
-        {/* <hr style={{background:"#666666"}}/> */}
+        <hr style={{background:"#666666"}}/>
         <span>StuWork. All Rights Reserved</span>
       </div>
     </section>
