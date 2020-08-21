@@ -1,0 +1,73 @@
+.fa-social {
+    padding: 20px 1rem 0 0;
+    color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+ }
+ 
+ .footer {
+    background: #151522;
+    color: white;
+    padding-top: 4.5rem;
+
+ }
+ 
+ .footer_text {
+    color: #666666;
+    padding-top: 25px;
+    line-height: 35px;
+ }
+ .footer a {
+    color: white;
+ }
+ .footer a:hover {
+    text-decoration: none;
+    color: #0084F4;
+ }
+ .footer li {
+    padding-bottom: 0.5rem;
+ }
+ .Explore, .Services, .Follow, .Legal {
+    padding-top: 18px;
+ }
+
+ .explore {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+  }
+  
+  .explore_list {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  
+  .explore_ul {
+    margin-bottom: 5px;
+  }
+  
+  .socials {
+    margin-right: 15px;
+  }
+
+  .subscribe {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+
+  .subbtn {
+    width: 100px;
+    height: 40px;
+    background: #00c48c;
+    border-color: transparent;
+  }
+  
+  .subbtn:hover {
+    background: #00c48c;
+  }
