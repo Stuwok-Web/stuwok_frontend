@@ -121,11 +121,11 @@ export default function Home() {
               <div class="text-center col-sm-12">
                 <div className={styles.cn}>
                   <p>
-                    <b className={styles.number}>1</b>{' '}
+                    <span className={styles.number}>1</span>{' '}
                     <span className={styles.dot}>.................</span>{' '}
-                    <b className={styles.number}>2</b>{' '}
+                    <span className={styles.number}>2</span>{' '}
                     <span className={styles.dot}>.................</span>{' '}
-                    <b className={styles.number}>3</b>
+                    <span className={styles.number}>3</span>
                   </p>
                 </div>
               </div>
