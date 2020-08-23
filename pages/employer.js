@@ -168,7 +168,7 @@ const employer = () => {
             <div className="col-md-4">
               <div
                 className="card mb-4 mt-4 box-shadow"
-                style={{ borderTop: '4px solid #00C48C' }}
+                style={{ borderTop: '4px solid #00C48C', borderLeft:"none", borderRight:"none", borderBottom:"none" }}
               >
                 <div className="card-header" style={{ background: 'white' }}>
                   <h5 className="my-0 font-weight-normal">Job Listing</h5>
@@ -204,7 +204,7 @@ const employer = () => {
             >
               <div
                 className="card mb-4 box-shadow"
-                style={{ marginTop: '-20%' }}
+                style={{ marginTop: '-20%', borderLeft:"none", borderRight:"none", borderBottom:"none" }}
               >
                 <div
                   className="card-header"
@@ -257,7 +257,7 @@ const employer = () => {
             <div className="col-md-4">
               <div
                 className="card mb-4 mt-4 box-shadow"
-                style={{ borderTop: '4px solid #EB5757' }}
+                style={{ borderTop: '4px solid #EB5757', borderLeft:"none", borderRight:"none", borderBottom:"none" }}
               >
                 <div className="card-header" style={{ background: 'white' }}>
                   <h5 className="my-0 font-weight-normal">
