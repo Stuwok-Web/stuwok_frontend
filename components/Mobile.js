@@ -14,7 +14,7 @@ const Mobile = () => {
           <Link href="#" >
             <span className={styles.navText}>find jobs</span>
           </Link>
-          <Link href="#" >
+          <Link href="/employer" >
             <span className={styles.navText}>hire intern</span>
           </Link>
           <Link href="#" >
