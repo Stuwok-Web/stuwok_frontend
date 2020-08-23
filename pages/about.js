@@ -4,9 +4,16 @@ import styles from '../styles/About.module.css'
 
 const about = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Head>
+        <title>About</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <Layout>
+          
+      </Layout>
+        </>
     )
 }
 

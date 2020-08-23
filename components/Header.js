@@ -26,7 +26,7 @@ const Header = () => {
           //   marginRight: '50px',
           // }}
           className={styles.brand}
-          href="#"
+          href="/"
         >
           <img
             src="https://res.cloudinary.com/davak/image/upload/v1597762030/Stuwork_cbkvex.png"
@@ -39,13 +39,13 @@ const Header = () => {
           </div>
 
           <div className={styles.nav_links}>
-            <Nav.Link href="" className={styles.navitem}>
+            <Nav.Link href="/" className={styles.navitem}>
               Home
             </Nav.Link>
             <Nav.Link href="" className={styles.navitem}>
               Find Jobs
             </Nav.Link>
-            <Nav.Link href="" className={styles.navitem}>
+            <Nav.Link href="/employer" className={styles.navitem}>
               Hire Intern
             </Nav.Link>
             <Nav.Link href="" className={styles.navitem}>

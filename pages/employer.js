@@ -1,9 +1,16 @@
 import React from 'react';
+import Head from 'next/head';
+
 import Layout from '../components/Layout';
 import styles from '../styles/Employer.module.css';
 
 const employer = () => {
   return (
+    <>
+    <Head>
+        <title>Hire Intern</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <Layout>
       <section>
         <div className={styles.body_image}>
@@ -35,7 +42,7 @@ const employer = () => {
             <button className="buttons btn btn-primary mt-2">
               Place Vacancy
             </button>
-            <button className="buttons btn btn-outline-primary mt-2">
+            <button className="buttons btn btn-outline-primary mt-2 ml-4">
               Contact Us
             </button>
           </div>
@@ -161,7 +168,7 @@ const employer = () => {
             <div className="col-md-4">
               <div
                 className="card mb-4 mt-4 box-shadow"
-                style={{ borderTop: '4px solid green' }}
+                style={{ borderTop: '4px solid #00C48C' }}
               >
                 <div className="card-header" style={{ background: 'white' }}>
                   <h5 className="my-0 font-weight-normal">Job Listing</h5>
@@ -201,7 +208,7 @@ const employer = () => {
               >
                 <div
                   className="card-header"
-                  style={{ background: 'red', color: 'white', padding: '0px' }}
+                  style={{ background: '#FFCBD3', color: '#FF647C', padding: '0px' }}
                 >
                   <span className="my-0 font-weight-normal">Most Popular</span>
                 </div>
@@ -238,7 +245,8 @@ const employer = () => {
                   </ul>
                   <button
                     type="button"
-                    className="btn btn-lg btn-block btn-outline-primary"
+                    className="btn btn-lg btn-block btn-primary"
+                    style={{color:'white'}}
                   >
                     Buy Now
                   </button>
@@ -249,7 +257,7 @@ const employer = () => {
             <div className="col-md-4">
               <div
                 className="card mb-4 mt-4 box-shadow"
-                style={{ borderTop: '4px solid red' }}
+                style={{ borderTop: '4px solid #EB5757' }}
               >
                 <div className="card-header" style={{ background: 'white' }}>
                   <h5 className="my-0 font-weight-normal">
@@ -298,7 +306,7 @@ const employer = () => {
                   <div class="col-md-4">
                      <div class="card-deck">
                         <div class="card card-images">
-                           <img src="/assets/Rectangle 60.png" alt=""/>
+                           <img src="https://res.cloudinary.com/davak/image/upload/v1598219360/Rectangle_60_iktzgn.png" alt=""/>
                            <div class="card-body">
                               <h3>Philip Ofei</h3>
                               <p>Human Resource Manager</p>
@@ -310,7 +318,7 @@ const employer = () => {
                   <div class="col-md-4">
                      <div class="card-deck">
                         <div class="card card-images">
-                           <img src="/assets/Rectangle 60-1.png" alt=""/>
+                           <img src="https://res.cloudinary.com/davak/image/upload/v1598219361/Rectangle_60-1_kw9spi.png" alt=""/>
                            <div class="card-body">
                               <h3>Philip Ofei</h3>
                               <p class="acct-mgr">Account Manager</p>
@@ -322,7 +330,7 @@ const employer = () => {
                   <div class="col-md-4">
                      <div class="card-deck">
                         <div class="card card-images">
-                           <img src="/assets/Rectangle 60-2.png" alt=""/>
+                           <img src="https://res.cloudinary.com/davak/image/upload/v1598219361/Rectangle_60-2_ilahnt.png" alt=""/>
                            <div class="card-body">
                               <h3>Philip Ofei</h3>
                               <p class="acct-mgr">Sales & Marketing</p>
@@ -346,6 +354,7 @@ const employer = () => {
    </section>
    </div>
     </Layout>
+    </>
   );
 };
 

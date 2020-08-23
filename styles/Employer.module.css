@@ -12,8 +12,13 @@
   .body_image_text {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10%;
+    padding-top: 15%;
+    color:white;
   }
+  .body_image_text h1{
+    font-weight:900;
+  }
+
   
   
   .finding_young_talent {
@@ -37,6 +42,7 @@
     background: white;
     padding: 5px;
     border-radius: 8px;
+    font-weight: bolder;
   }
   .section_1 {
     margin-top: 3%;
