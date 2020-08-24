@@ -276,4 +276,13 @@
     flex-direction: column;
     /* flex-wrap: wrap; */
   }
+  .seventhSection{
+    display:flex;
+    justify-content: center;
+    width:auto;
+  }
+  .styp, .believe{
+    width:500px
+  }
+  
 }

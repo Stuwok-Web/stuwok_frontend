@@ -163,7 +163,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* <section className={styles.fifthSection}>
+        <section className={styles.fifthSection}>
           <div className="container mt-5 mb-5">
             <div className="d-flex flex-row justify-content-center mt-5">
               <div className="d-flex flex-column">
@@ -286,7 +286,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
         <section className={styles.sixthSection}>
           <div className="container mt-5 d-flex flex-row justify-content-center">
             <div className="d-flex flex-column mt-5">
@@ -309,7 +309,7 @@ export default function Home() {
         <section className={styles.seventhSection}>
           <div className="container mt-5">
             <hr className={styles.line2} />
-            <div className="d-flex flex-row justify-content-center mb-5">
+            <div className="d-flex justify-content-center mb-5">
               <p className={styles.believe}>
                 We believe in helping students make a difference, and we work
                 with like minded people. <br /> Our team is united, and that’s

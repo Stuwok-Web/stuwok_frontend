@@ -97,3 +97,20 @@
   color: #151522;
   /* border-bottom: 2px solid red; */
 }
+
+@media(max-width: 768px){
+  .seventhSection{
+    display:flex;
+    justify-content: center;
+    width:auto;
+  }
+  .styp, .ptext{
+    width:500px
+  }
+  .body_image_text {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35%;
+    color:white;
+  }
+}
