@@ -48,10 +48,10 @@ const Header = () => {
             <Nav.Link href="/employer" className={styles.navitem}>
               Hire Intern
             </Nav.Link>
-            <Nav.Link href="" className={styles.navitem}>
+            <Nav.Link href="/about" className={styles.navitem}>
               About Us
             </Nav.Link>
-            <Nav.Link href="" className={styles.navitem}>
+            <Nav.Link href="/contact" className={styles.navitem}>
               Contact Us
             </Nav.Link>
           </div>

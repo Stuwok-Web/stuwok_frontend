@@ -27,7 +27,7 @@
         height: 50%;
         background-color: white;
         color: black;
-    
+        transition: cubic-bezier(0.165, 0.84, 0.44, 1);
     }
     
     

@@ -8,7 +8,7 @@ const Mobile = () => {
     <>
       <div className={styles.head}>
         <ul className={styles.ulnav}>
-          <Link href="#" >
+          <Link href="/" >
             <span className={styles.navText}>home</span>
           </Link>
           <Link href="#" >
@@ -17,10 +17,10 @@ const Mobile = () => {
           <Link href="/employer" >
             <span className={styles.navText}>hire intern</span>
           </Link>
-          <Link href="#" >
+          <Link href="/about" >
             <span className={styles.navText}>about us</span>
           </Link>
-          <Link href="#"> 
+          <Link href="/contact"> 
             <span className={styles.navText}>contact us</span>
           </Link>
           <Link href="#">
