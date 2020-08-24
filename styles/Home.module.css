@@ -192,7 +192,12 @@
 .eightSection {
   background-color: #ffffff;
   /* height: 360px; */
-  width: 100%;
+  width: auto;
+}
+
+.oppoBtn{
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .aylf {
@@ -265,5 +270,10 @@
   }
   .ptextSection{
     width:300px
+  }
+  .oppoBtn{
+    display:flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
   }
 }

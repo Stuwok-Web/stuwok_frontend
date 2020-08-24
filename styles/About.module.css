@@ -1,0 +1,99 @@
+.body_image {
+    background: url('https://res.cloudinary.com/davak/image/upload/v1597673478/you-x-ventures-0K7GgiA8lVE-unsplash_1_rjdjln.jpg')
+      no-repeat center center/cover;
+    height: 400px;
+  }
+  .body_image_text {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+    color:white;
+  }
+  .body_image_text h1{
+    font-weight:900;
+    text-transform: uppercase;
+  }
+ 
+  .how_it_all_started {
+    margin-left: auto;
+    margin-right: auto !important;
+    background: white;
+    padding: 3rem 4.31rem;
+    box-shadow: 2px 8px 24px rgba(186, 213, 249, 0.16);
+    border-radius: 8px;
+    margin-top: -8%;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .how_it_all_started_hr {
+    width: 100px;
+    height: 5px;
+    margin-left: 45%;
+    background: #ff647c;
+  }
+  
+  .section_text {
+    padding: 20px 60px;
+  }
+  .students {
+    /* font-size: 64px; */
+    color: #ff647c;
+    font-weight: bolder;
+  }
+
+  .second_section{
+      margin-top:7%;
+  }
+
+  .ptext{
+    text-align: center;
+    width: 1170px;
+    font-size: 36px;
+    display: flex;
+    line-height: 42px;
+    margin-top: 50px;
+  }
+
+  .sty {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  
+  .styp {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 30px;
+    color: #666666;
+  }
+
+  .line {
+    height: 5px;
+    width: 90px;
+    background: #ff647c;
+  }
+
+  .fifthSection {
+    background-color: #ffffff;
+    /* height:700px; */
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+  }
+
+  .viewp {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: white;
+  }
+
+  .getHiredText {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #151522;
+  /* border-bottom: 2px solid red; */
+}

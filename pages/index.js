@@ -141,7 +141,6 @@ export default function Home() {
                     </p>
                   </div>
 
-                  
                   <div class="col-md-4 text-center">
                     <h5>Search Interest</h5>
 
@@ -151,7 +150,6 @@ export default function Home() {
                     </p>
                   </div>
 
-                  
                   <div class="col-md-4 text-center">
                     <h5>Submit Application</h5>
 
@@ -165,7 +163,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className={styles.fifthSection}>
+        {/* <section className={styles.fifthSection}>
           <div className="container mt-5 mb-5">
             <div className="d-flex flex-row justify-content-center mt-5">
               <div className="d-flex flex-column">
@@ -288,7 +286,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className={styles.sixthSection}>
           <div className="container mt-5 d-flex flex-row justify-content-center">
             <div className="d-flex flex-column mt-5">
@@ -308,7 +306,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* <section className={styles.seventhSection}>
+        <section className={styles.seventhSection}>
           <div className="container mt-5">
             <hr className={styles.line2} />
             <div className="d-flex flex-row justify-content-center mb-5">
@@ -321,7 +319,6 @@ export default function Home() {
             </div>
             <div class="row mt-5">
               <div class="col-md-4">
-                
                 <h4 className={styles.sty}>
                   <span>Our St</span>ory
                 </h4>
@@ -334,7 +331,7 @@ export default function Home() {
                   scelerisque viverra nec rutrum orci, quisque pharetra mauris.
                 </p>
               </div>
-             
+
               <div class="col-md-4">
                 <h4 className={styles.sty}>
                   <span> Our Ex</span>pectation
@@ -348,7 +345,6 @@ export default function Home() {
                 </p>
               </div>
 
-            
               <div class="col-md-4">
                 <h4 className={styles.sty}>
                   <span>Yo</span>u!
@@ -363,35 +359,49 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
         {/* <section className={styles.eightSection}>
           <div className="container mb-5">
             <div className="row mt-5">
               <div className="col-md-7 flex-wrap">
                 <h3 className={styles.aylf}>Are you looking for?</h3>
-                <div className="mb-3">
-                  <Button className={styles.aylfb} size="sm">
-                    Part time
-                  </Button>
-                  <Button className={styles.aylfb} size="sm">
-                    Jobs
-                  </Button>
-                  <Button className={styles.aylfb} size="sm">
-                    Internship
-                  </Button>
-                  <Button className={styles.aylfb} size="sm">
-                    Evening Job
-                  </Button>
-                  <Button className={styles.aylfb2} size="sm">
-                    Weekend Jobs
-                  </Button>
-                  <Button className={styles.aylfb2} size="sm">
-                    Freelance
-                  </Button>
-                  <Button className={styles.aylfb2} size="sm">
-                    Contract Jobs
-                  </Button>
+                <div className={styles.oppoBtn}>
+                  <div>
+                    <Button className={styles.aylfb} size="sm">
+                      Part time
+                    </Button>
+                  </div>
+                  <div>
+                    <Button className={styles.aylfb} size="sm">
+                      Jobs
+                    </Button>
+                  </div>
+                  <div>
+                    <Button className={styles.aylfb} size="sm">
+                      Internships
+                    </Button>
+                  </div>
+                  <div>
+                    <Button className={styles.aylfb} size="sm">
+                      Evening Jobs
+                    </Button>
+                  </div>
+                  <div>
+                    <Button className={styles.aylfb2} size="sm">
+                      Weekend Jobs
+                    </Button>
+                  </div>
+                  <div>
+                    <Button className={styles.aylfb2} size="sm">
+                      Freelance
+                    </Button>
+                  </div>
+                  <div>
+                    <Button className={styles.aylfb2} size="sm">
+                      Contract Jobs
+                    </Button>
+                  </div>
                 </div>
                 <span className={styles.vacancy}>Check all our vacancies</span>
               </div>
