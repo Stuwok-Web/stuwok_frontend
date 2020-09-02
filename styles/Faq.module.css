@@ -44,7 +44,7 @@
   width: 26rem;
 }
 .address_text {
-  width: 250px;
+  width: 350px;
 }
 
 /* .textarea {
@@ -59,6 +59,7 @@
 
 .offices_text {
   width: 480px;
+  margin-bottom: 50px;
 }
 .address_section {
   padding: 52px 0;
@@ -67,9 +68,9 @@
   margin: 52px 0 10rem 0;
 }
 .block {
-  width: 50px;
+  width: 70px;
   height: 5px;
-  background: #0084f4;
+  background: #ff647c;
   border-radius: 10px;
   margin-bottom: 30px;
 }
@@ -77,18 +78,31 @@
   width: 99% !important;
 }
 
-.cmain{
-    background: #ECECEC !important;
+.number{
+  font-weight: bold;
+font-size: 48px;
+line-height: 58px;
+color: #2F80ED;
 }
 
-.chead{
-    border-bottom: none !important;
-    background: #ECECEC !important;
-
+.cmain {
+  background: #ececec !important;
 }
 
-.tog{
-    border-radius: 1.8em;
+.chead {
+  border-bottom: none !important;
+  background: #ececec !important;
+}
+
+.readmore {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #2f80ed;
+}
+
+.tog {
+  border-radius: 1.8em;
   -moz-border-radius: 1.8em;
   -webkit-border-radius: 1.8em;
   color: #ffffff;
@@ -97,8 +111,8 @@
   line-height: 1.6em;
   margin-right: 5px;
   text-align: center;
-  width: 1.6em; 
-  border:none
+  width: 1.6em;
+  border: none;
 }
 /* input {
       margin: 1rem 0 !important;

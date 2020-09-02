@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import Layout from '../components/Layout';
 import styles from '../styles/Faq.module.css';
 import {
@@ -63,8 +64,13 @@ const faq = () => {
                     <Card className={styles.cmain}>
                       <Card.Header className={styles.chead}>
                         <div className="d-flex justify-content-between">
-                          <div> <h5>{f.questions}</h5> </div>
-                          <ContextAwareToggle eventKey={f._id}></ContextAwareToggle>
+                          <div>
+                            {' '}
+                            <h5>{f.questions}</h5>{' '}
+                          </div>
+                          <ContextAwareToggle
+                            eventKey={f._id}
+                          ></ContextAwareToggle>
                         </div>
                       </Card.Header>
                       <>
@@ -80,31 +86,37 @@ const faq = () => {
               </div>
               <div className="col-md-1"></div>
               <div className="col-md-6">
-                <h3>Offices</h3>
+                <h3>Extended Questions</h3>
                 <p className={styles.block}></p>
                 <p className={styles.offices_text}>
                   <i className="fa fa-location"></i> Alienum phaedrum torquatos
                   nec eu, vis detraxit periculis ex, nihil expetendis in mei.
-                  Alienum phaedrum torquatos nec eu, vis detraxit periculis ex,
-                  nihil expetendis in mei. Mei an pericula euripidis, hinc
-                  partem ei est. Eos ei nisl graecis, vix aperiri consequat an.
-                  Eius lorem tincidunt vix at, vel pertinax sensibus id.{' '}
+                  Mei an pericula euripidis, hinc partem ei est. Eos ei nisl
+                  graecis, vix aperiri consequat an. Eius lorem tincidunt vix
+                  at, vel pertinax sensibus id, error epicurei mea et. Mea
+                  facilisis urbanitas moderatius id. Vis ei rationibus
+                  definiebas, eu qui purto zril laoreet. Ex error omnium
+                  interpretaris pro, alia illum ea vim.{' '}
                 </p>
+                <Link href="#">
+                  <span className={styles.readmore}>Read more {'>>'} </span>
+                </Link>
                 <div className={styles.address_section}>
-                  <h3>Address</h3>
+                  <h3>Contact Support</h3>
+                  <p className={styles.block}></p>
+
                   <p className={styles.address_text}>
-                    No 130 muri okunola street, victoria Island Lagos state,
-                    Nigeria
+                    Think we didnt answer your questions correctly or you still
+                    have other arreas we didnt cover?
                   </p>
+                  <p className={styles.address_text}>Why dont you call us!</p>
                 </div>
-                <h3>Phone</h3>
-                <p>+234 (0) 70 612 3456</p>
-                <p>+234 (0) 70 612 3456</p>
-                <p>+234 (0) 70 612 3456</p>
-                <div className="Email">
-                  <h3>Email</h3>
-                  <p>customer@yourmail.com</p>
-                  <p>domainname@yourmail.com</p>
+
+                <div>
+                  <span className={styles.number}>+234 70 612 3456</span>
+                </div>
+                <div>
+                  <span className={styles.number}>+234 70 612 3456</span>
                 </div>
               </div>
             </div>
