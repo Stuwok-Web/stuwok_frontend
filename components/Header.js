@@ -61,7 +61,7 @@ const Header = () => {
             <Nav.Link href="/signup" className={styles.navitem_2}>
               <span style={{ color: '#2d9cdb' }}>Sign Up</span>
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link href="/signin">
               <Button
                 style={{ marginTop: '10px', width: '90px' }}
                 variant="primary"
