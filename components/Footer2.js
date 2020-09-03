@@ -1,6 +1,7 @@
 import React from 'react';
+import Link from 'next/link';
 import styles from '../styles/Footer2.module.css';
-import {Button} from 'react-bootstrap'
+import { Button } from 'react-bootstrap';
 const Footer2 = () => {
   return (
     <footer className={styles.footer}>
@@ -32,16 +33,24 @@ const Footer2 = () => {
                   </div>
                   <div>
                     <div className={styles.explore_ul}>
-                      <span className={styles.explore_list}>Home</span>
+                      <Link href="/">
+                        <span className={styles.explore_list}>Home</span>
+                      </Link>
                     </div>
                     <div className={styles.explore_ul}>
-                      <span className={styles.explore_list}>About Us</span>
+                      <Link href="/about">
+                        <span className={styles.explore_list}>About Us</span>
+                      </Link>
                     </div>
                     <div className={styles.explore_ul}>
-                      <span className={styles.explore_list}>Contact Us</span>
+                      <Link href="/contact">
+                        <span className={styles.explore_list}>Contact Us</span>
+                      </Link>
                     </div>
                     <div className={styles.explore_ul}>
-                      <span className={styles.explore_list}>FAQ</span>
+                      <Link href="/faq">
+                        <span className={styles.explore_list}>FAQ</span>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -55,10 +64,14 @@ const Footer2 = () => {
                     </div>
                     <div>
                       <div className={styles.explore_ul}>
+                        <Link href="#">
                         <span className={styles.explore_list}>Find Jobs</span>
+                        </Link>
                       </div>
                       <div className={styles.explore_ul}>
+                        <Link href="/employer">
                         <span className={styles.explore_list}>Hire Intern</span>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -128,9 +141,7 @@ const Footer2 = () => {
                   />
                 </div>
                 <div className="d-flex justify-content-end">
-
-                <Button className={styles.subbtn}>Subscribe</Button>
-
+                  <Button className={styles.subbtn}>Subscribe</Button>
                 </div>
               </form>
             </ul>
