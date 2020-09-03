@@ -23,7 +23,7 @@ const Mobile = () => {
           <Link href="/contact"> 
             <span className={styles.navText}>contact us</span>
           </Link>
-          <Link href="#">
+          <Link href="/signup">
             <span className={styles.navText}>sign up</span>
           </Link>
           <Link href="#">

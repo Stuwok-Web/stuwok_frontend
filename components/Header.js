@@ -58,7 +58,7 @@ const Header = () => {
         </Nav>
         <div className={styles.nav_links}>
           <Nav className="mx-auto">
-            <Nav.Link href="" className={styles.navitem_2}>
+            <Nav.Link href="/signup" className={styles.navitem_2}>
               <span style={{ color: '#2d9cdb' }}>Sign Up</span>
             </Nav.Link>
             <Nav.Link>
