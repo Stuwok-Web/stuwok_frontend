@@ -53,6 +53,7 @@ const faq = () => {
             </div>
           </div>
         </section>
+        <div style={{background:'#f8f8f8'}}>
         <section className={styles.first_section}>
           <div className="container">
             <div className="row">
@@ -66,7 +67,7 @@ const faq = () => {
                         <div className="d-flex justify-content-between">
                           <div>
                             {' '}
-                            <h5>{f.questions}</h5>{' '}
+                            <h5 className="font-weight-bold">{f.questions}</h5>{' '}
                           </div>
                           <ContextAwareToggle
                             eventKey={f._id}
@@ -122,6 +123,7 @@ const faq = () => {
             </div>
           </div>
         </section>
+        </div>
       </Layout>
     </>
   );
